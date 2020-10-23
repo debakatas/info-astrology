@@ -69,16 +69,17 @@ const Main = () => {
     setVisible(true);
   };
 
+  const showText = async (newText) => {
+    setModalImg(null);
+    setText(newText);
+    setVisible(true);
+  };
+
   return (
     <>
       <StyledMain>
         <StyledH1>La astrología como una guía de vida</StyledH1>
-        <Moons
-          showModal={(newText) => {
-            setText(newText);
-            setVisible(true);
-          }}
-        />
+        <Moons showModal={showText} />
         <StyledDoll src={doll} alt="Doll" />
         <StyledMoon src={moon} onClick={() => showImg(astral)} />
         <StyledMoon src={moon} onClick={() => showImg(map)} />

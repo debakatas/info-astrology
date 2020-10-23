@@ -37,7 +37,7 @@ const Aside = styled.aside`
   text-align: center;
   font-size: var(--font-size-XL);
   position: relative;
-  width: clamp(100%, var(--box), 80%)
+  max-width: calc(var(--box) * 1.2);
   margin: auto;
 
   &::after {

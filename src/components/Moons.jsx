@@ -16,22 +16,23 @@ const data = [
   },
   {
     img: middle,
-    text: `Todas las personas tenemos combinaciones diferentes de signos e influencia de planetas, por lo tanto, no tenemos las mismas características ni el mismo proceso o propósito de vida, a pesar de ser del mismo signo solar.`,
+    text: `Es indispensable que conozcas cual es tu signo ascendente, que no precisamente es el correspondiente a tu fecha de nacimiento, puesto que es quien marca tu personalidad y la suerte que tienes en todas las áreas de la vida.`,
     reflect: true,
   },
   {
     img: top,
-    text: `Todas las personas tenemos combinaciones diferentes de signos e influencia de planetas, por lo tanto, no tenemos las mismas características ni el mismo proceso o propósito de vida, a pesar de ser del mismo signo solar.`,
+    text: `Es importante saber que al igual que la carta astral, el horóscopo debe ser un proceso personal ya que las lecturas generalizadas, no te ayudaran a entender tu proceso interno pues claramente es diferente en cada persona.
+`,
     reflect: true,
   },
   {
     img: full,
-    text: `Todas las personas tenemos combinaciones diferentes de signos e influencia de planetas, por lo tanto, no tenemos las mismas características ni el mismo proceso o propósito de vida, a pesar de ser del mismo signo solar.`,
+    text: `Con la ayuda de la carta astral logras descubrir como puedes llegar a reaccionar, antes las distintas situaciones de la vida y tu interacción con el mundo, además de ayudarte a descubrir las características mas profundas de tu ser y esencia.`,
     reflect: false,
   },
   {
     img: top,
-    text: `Todas las personas tenemos combinaciones diferentes de signos e influencia de planetas, por lo tanto, no tenemos las mismas características ni el mismo proceso o propósito de vida, a pesar de ser del mismo signo solar.`,
+    text: `La astrología también nos ayuda a desarrollar nuestra autoestima, porque aprendemos a vernos como seres valiosos y únicos con un propósito en la vida, y al entender esto podemos ayudar a los demás a vivir en equilibrio`,
     reflect: false,
   },
   {
@@ -95,10 +96,12 @@ const StyledButton = styled.button`
   :nth-of-type(5) {
     grid-area: 1 / 3 / 2 / 4;
   }
+
   :nth-of-type(6) {
     grid-area: 2 / 3 / 3 / 4;
     --translate-x: 25%;
   }
+
   :nth-of-type(7) {
     grid-area: 3 / 3 / 4 / 4;
   }
